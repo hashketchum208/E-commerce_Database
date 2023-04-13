@@ -22,6 +22,8 @@ Product.init(
     },
     price: {
       type: DataTypes.DECIMAL(10, 2),
+      validate: {
+        is: /^[0-9a-f]{64}$/i
     },
     stock: {
       type: DataTypes.INTEGER,
