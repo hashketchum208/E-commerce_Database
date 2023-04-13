@@ -20,8 +20,8 @@ router.get('/:id', async (req, res) => {
   try {
     const tagData = await Tag.findAll({
       include: {
-        model: ProductTag,
-        attributes: ["tag_id"],
+        model: ProductTag, Product,
+        attributes: ["tag_id", "product_id"],
       },
     });
     res.status(200).json(tagData);
