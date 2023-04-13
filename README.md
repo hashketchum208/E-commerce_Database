@@ -12,3 +12,5 @@ build the back end for an e-commerce site by modifying starter code to configure
 API Routes to perform RESTful CRUD operations, seed the database, and sync Sequelize to the database on server start.
 ## Deployment
 
+<video src="E-commerceClip.mp4" controls="controls" style="max-width: 730px;">
+</video>
